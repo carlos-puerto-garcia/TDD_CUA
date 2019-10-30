@@ -1,0 +1,29 @@
+{
+  "name": "TDD_CUA",
+  "version": "1.0.0",
+  "description": "Practicando desarrollo orientado por pruebas TDD",
+  "main": "calculator.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlos-puerto-garcia/TDD_CUA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlos-puerto-garcia/TDD_CUA/issues"
+  },
+  "homepage": "https://github.com/carlos-puerto-garcia/TDD_CUA#readme"
+}
