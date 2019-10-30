@@ -4,7 +4,7 @@ var should = chai.should();// importamos la libreria should del framework chai
 var expect = chai.expect;// importamos la libreria expect del framework chai
 var calculator = require('../calculator');// llamamos el archivo calculator para uso en las funciones
 
-describe('Prueba con la funcion assert : ', function() { // este seria una forma mas TDD
+describe('Prueba con la funcion assert : ', ()=> { // este seria una forma mas TDD
   describe('Comprovamos la funcion addTest', function(){
     it('Comprovamos el valor retornado usando : assert.equal(value, value): ', function() {
        result = calculator.addTest(1,1);//colocamos los valores como parametros para la suma
